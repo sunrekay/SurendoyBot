@@ -1,0 +1,7 @@
+2022-03-15 23:52:47,874 - [ERROR] - moderator_bot - (moderator_bot.py).send_bet_for_premium(83) - fetchall() takes 1 positional argument but 2 were given
+2022-03-15 23:55:54,332 - [ERROR] - moderator_bot - (moderator_bot.py).send_bet_for_premium(83) - fetchall() takes 1 positional argument but 2 were given
+2022-03-16 00:19:13,205 - [ERROR] - moderator_bot - (moderator_bot.py).send_bet_for_premium(86) - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''premium_users'(telegram_id bigint, telegram_name varchar(32))' at line 1")
+2022-03-16 00:19:55,706 - [ERROR] - moderator_bot - (moderator_bot.py).send_bet_for_premium(86) - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''premium_users'(telegram_id bigint, telegram_name varchar(32))' at line 1")
+2022-03-16 00:43:20,651 - [ERROR] - moderator_bot - (moderator_bot.py).send_bet_for_premium(82) - fetchall() takes 1 positional argument but 2 were given
+2022-03-16 00:48:19,674 - [ERROR] - moderator_bot - (moderator_bot.py).send_bet_for_premium(82) - (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''premium_users'' at line 1")
+2022-03-16 00:50:13,724 - [ERROR] - moderator_bot - (moderator_bot.py).send_bet_for_premium(82) - A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found
