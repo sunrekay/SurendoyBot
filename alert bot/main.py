@@ -1,5 +1,4 @@
 from selenium import webdriver
-from datetime import datetime
 from webdriver_manager.firefox import GeckoDriverManager
 import app_logger
 import moderator_bot
@@ -163,9 +162,9 @@ def main():
 
                                 time.sleep(3600)
 
-                                for _dict in _check_list_matches:
-                                    if _list_players[0] in _dict['Players'] and \
-                                        _list_players[1] in _dict['Players']:
+                                for _check_dict in _check_list_matches:
+                                    if (_list_players[0] in _check_dict['Players']) and \
+                                            (_list_players[1] in _check_dict['Players']):
                                         time_flag = True
 
                                 if time_flag:
@@ -229,4 +228,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
