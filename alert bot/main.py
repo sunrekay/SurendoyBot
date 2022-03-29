@@ -156,6 +156,7 @@ def main():
                             logger.info(coef)
 
                             while True:
+                                answer = None
                                 time_flag = False
                                 _check_list_matches = get_list_matches()
                                 _list_players = _dict['Players']
@@ -173,8 +174,9 @@ def main():
                                     time.sleep(7200)
                                     logger.info("Матч закончился, проверка результатов...")
                                     answer = check_winner(_dict['Stats'])
-                                    if not (answer is None):
-                                        break
+
+                                if not (answer is None):
+                                    break
 
                             if answer == _dict['Coefficient'].index(coef_str):
                                 _bank -= bet

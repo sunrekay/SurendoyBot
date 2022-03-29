@@ -14,8 +14,9 @@ bot_surendoy = telebot.TeleBot(token_surendoy_bot)
 
 
 def send_stats_on_channel(_list_matches):
-    text = str()
     revenue = 0
+    text = "Стаитстика была сгенерирована системой автоматической ставки - <b>surendoy_bot+</b>"
+    text += "(о том как подключиться к системе, вы можете узнать в закрепленном сообщении)\n"
 
     for _dict_match in _list_matches:
         text += "<b>" + str(_dict_match['Players'][0]) + "</b>  VS  <b>" + str(_dict_match['Players'][1]) + "</b>\n"
