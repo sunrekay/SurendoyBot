@@ -34,6 +34,9 @@ MANIFEST
 *.spec
 
 # Installer logs
+x.log
+instruction.txt
+geckodriver.log
 pip-log.txt
 pip-delete-this-directory.txt
 
