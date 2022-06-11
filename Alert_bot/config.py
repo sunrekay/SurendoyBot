@@ -1,4 +1,4 @@
-host = "130.193.41.143"
-user = "surendoy"
-password = "surendoy"
-db_name = "telegram_db"
+host = "..." # ip DB
+user = "..." # login DB
+password = "..." # password DB
+db_name = "..." # name DB
