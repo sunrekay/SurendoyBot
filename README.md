@@ -11,9 +11,10 @@
       - `git clone https://github.com/sunrekay/surendoy_bot.git `
   2. После установки следуют перейти внутрь локальной папки, клонированного ранее репозитория
       - `cd <название вашей папки>`
-  3. Далее следуют запустить процесс сборки образа с тегом <u>*my-bbot*</u>
+  3. В папке Alert_bot и Telegram_bot заполнить файлы config.py, bot.py, main.py
+  4. Далее следуют запустить процесс сборки образа с тегом <u>*my-bbot*</u>
       - `docker build -t my-bbot .`
-  4. И следующим шагом запустить Dockerfile
+  5. И следующим шагом запустить Dockerfile
       - `docker run -it my-bot `
 
 
