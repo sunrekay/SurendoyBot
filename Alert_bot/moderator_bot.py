@@ -5,9 +5,9 @@ from config import host, password, db_name, user
 
 logger = app_logger.get_logger(__name__)
 
-channel_id = -1001681592401
-token_moderator_bot = '5135637646:AAHVrMe60n4znw8xfbh_s4sY2yFB5ousVrg'
-token_surendoy_bot = '5060088113:AAFKWEpLAfee1tFwa2oSs86yUXTbx3QGdzI'
+channel_id = # enter channel ID
+token_moderator_bot = '...' # enter token moderator bot
+token_surendoy_bot = '...' # enter token main bot
 
 bot = telebot.TeleBot(token_moderator_bot)
 bot_surendoy = telebot.TeleBot(token_surendoy_bot)
