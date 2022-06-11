@@ -1,1 +1,1 @@
-BOT_TOKEN = '5060088113:AAFKWEpLAfee1tFwa2oSs86yUXTbx3QGdzI'
+BOT_TOKEN = '...' # enter token main bot
